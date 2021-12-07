@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/apps/actw/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/lib/actw_bsp/actw_bsp/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/lib/bsps/actw_bsp/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/lib/virtual_devices/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/lib/actw_bsp/actw_bsp/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/apps/actw/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/lib/bsps/actw_bsp/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
