@@ -42,7 +42,8 @@ impl VirtualClock for Clock {
         Ok(self.rtc.get_datetime()?)
     }
 
-    fn wait_until(&self, datetime: &NaiveDateTime) {
-        todo!()
+    fn wait_until(&mut self, datetime: &NaiveDateTime) -> Result<(), Self::Error> {
+        while self.get_datetime()? < *datetime { }
+        Ok(())
     }
 }
